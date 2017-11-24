@@ -1,0 +1,1688 @@
+﻿{
+    "type": "FeatureCollection",
+    "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.6974544,49.2190649 ]
+    },
+    "properties": {
+    "Address":"11921 189A Street",
+    "City":"Pitt Meadows",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3Y",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,3,2017,2:00 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.7615482,49.287023 ]
+    },
+    "properties": {
+    "Address":"1233 Wellington Street",
+    "City":"Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3B 3Z9",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,5,2017,7:30 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.873462,49.100676 ]
+    },
+    "properties": {
+    "Address":"12601 54 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3X 3C1",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,13,2017,8:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.960135,49.263891 ]
+    },
+    "properties": {
+    "Address":"2230 Hycrest Drive",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5B 4N5",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,13,2017,11:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.718925,49.017486 ]
+    },
+    "properties": {
+    "Address":"18173 8 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 9R9",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,16,2017,4:30 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0713108,49.018992 ]
+    },
+    "properties": {
+    "Address":"5421-5503 8B Avenue",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4M 1V5",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,19,2017,5:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.7159487,49.2214195 ]
+    },
+    "properties": {
+    "Address":"18300 Ford Road",
+    "City":"Pitt Meadows",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3Y",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,24,2017,5:30 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.000859,49.211325 ]
+    },
+    "properties": {
+    "Address":"7975 Strathearn Avenue",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5J 3Y4",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,25,2017,3:00 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.8980071,49.2840808 ]
+    },
+    "properties": {
+    "Address":"Trans Canada Trail",
+    "City":"Port Moody",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3H 1J2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,26,2017,8:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09545,49.34328 ]
+    },
+    "properties": {
+    "Address":"986-998 Melbourne Avenue",
+    "City":"North Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V7R 1N9",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,31,2017,10:30 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.81373,49.11944 ]
+    },
+    "properties": {
+    "Address":"14703 64 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 1X6",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,31,2017,8:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.140279,49.230231 ]
+    },
+    "properties": {
+    "Address":"6137 Granville Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6M 3E2",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"3,31,2015,10:43 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.67156,49.136565 ]
+    },
+    "properties": {
+    "Address":"7344 198B Street",
+    "City":"Langley",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2Y 1S1",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,31,2017,12:30 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.93743,49.202368 ]
+    },
+    "properties": {
+    "Address":"1625 5th Avenue",
+    "City":"New Westminster",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3M 0C7",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"6,7,2015,3:35 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.89829,49.145814 ]
+    },
+    "properties": {
+    "Address":"7844 117 Street",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4C 6A5",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"6,9,2015,7:06 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.964706,49.193924 ]
+    },
+    "properties": {
+    "Address":"6012-7528 Meadow Avenue",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3N",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,11,2015,8:08 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.141742,49.1644 ]
+    },
+    "properties": {
+    "Address":"6900 Minoru Boulevard",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6Y 3E3",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,31,2015,3:29 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.62893,49.105473 ]
+    },
+    "properties": {
+    "Address":"21405 56 Avenue",
+    "City":"Langley",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2Y",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"4,16,2016,7:07 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"24A Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 0E2",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"4,4,2016,9:02 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.93029,49.22356 ]
+    },
+    "properties": {
+    "Address":"8218 North Fraser Way",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3N 5G4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"4,9,2016,9:20 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.78219,49.25488 ]
+    },
+    "properties": {
+    "Address":"Traboulay PoCo Trail",
+    "City":"Port Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3C 1R9",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"4,30,2016,11:08 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.060858,49.290615 ]
+    },
+    "properties": {
+    "Address":"2525-2775 Commissioner Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5K",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"1,1,2015,6:13 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07442,49.186887 ]
+    },
+    "properties": {
+    "Address":"3671 Viking Way",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6V 1N6",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"1,12,2015,7:43 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"4322 152 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 0L2",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"2,6,2015,7:22 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.60736,49.192367 ]
+    },
+    "properties": {
+    "Address":"10421 McKinnon Crescent",
+    "City":"Langley",
+    "State/Province":"British Columbia",
+    "Postal Code":"V1M 3V2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"2,6,2015,8:08 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.03411,49.184014 ]
+    },
+    "properties": {
+    "Address":"17100 Cambie Road",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6V 1H1",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"2,9,2015,9:09 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.03441,49.166223 ]
+    },
+    "properties": {
+    "Address":"17080 Westminster Highway",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6V 2V2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"2,9,2015,6:40 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.84796,49.15478 ]
+    },
+    "properties": {
+    "Address":"8314 134A Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3W 0Y1",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"3,11,2015,8:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.88652,49.11771 ]
+    },
+    "properties": {
+    "Address":"6247 121 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3X 3J2",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"8,4,2016,9:02 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1836,49.253109 ]
+    },
+    "properties": {
+    "Address":"3559 West 22nd Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6S 1J4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"8,24,2016,2:16 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.8957029,49.18266776 ]
+    },
+    "properties": {
+    "Address":"13551-13567,13552-13566 99 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3T 1E3",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"9,3,2016,9:32 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.99588,49.248586 ]
+    },
+    "properties": {
+    "Address":"3890 Garden Grove Drive",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5G 4A7",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,9,2016,10:56 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.78748,49.028962 ]
+    },
+    "properties": {
+    "Address":"15696 Russell Avenue",
+    "City":"White Rock",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4B 2S1",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"10,14,2016,12:20 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0853,49.234969 ]
+    },
+    "properties": {
+    "Address":"977 East 39th Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5W 1K7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"10,24,2016,5:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.02031,49.21048 ]
+    },
+    "properties": {
+    "Address":"8131 Joffre Avenue",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5J 3L4",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"10,31,2016,6:52 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.88109,49.18488 ]
+    },
+    "properties": {
+    "Address":"12279 100 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3V 2W9",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"11,3,2016,9:09 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.87443,49.256583 ]
+    },
+    "properties": {
+    "Address":"829 Foster Avenue",
+    "City":"Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3J 2L8",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,12,2016,11:20 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.04125,49.240844 ]
+    },
+    "properties": {
+    "Address":"4808 Killarney Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5R 3V5",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,07,2016,2:02 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.080227,49.278218 ]
+    },
+    "properties": {
+    "Address":"734 East Georgia Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6A",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,1,2016,3:00AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.04744,49.270677 ]
+    },
+    "properties": {
+    "Address":"2785 Graveley Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5K 3J7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,4,2016,8:02 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09126,49.07022 ]
+    },
+    "properties": {
+    "Address":"5599 96 Street",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 3N3",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,7,2016,12:02 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.96369,49.270983 ]
+    },
+    "properties": {
+    "Address":"6759 Grant Place",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5B 2K9",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"12,11,2016,11:02 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.2245864,49.2546709 ]
+    },
+    "properties": {
+    "Address":"Salish Trail (21)",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6N 2C4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"12,20,2016,12:56 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.89107,49.176844 ]
+    },
+    "properties": {
+    "Address":"11966 96 Avenue",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4C 3W8",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,25,2016,8:09 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.12219,49.147629 ]
+    },
+    "properties": {
+    "Address":"9271 Glenbrook Drive",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V7A 1X9",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"1,02,2017,8:54 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.78643,49.278843 ]
+    },
+    "properties": {
+    "Address":"3097 Lincoln Avenue",
+    "City":"Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3B 0E2",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"1,02,2017,6:34 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.73362,49.11294 ]
+    },
+    "properties": {
+    "Address":"6090 176 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 4E7",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"01,12,2017, 8:14 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"17080 48 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 0L5",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"01,16,2017,10:54 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07064,49.266266 ]
+    },
+    "properties": {
+    "Address":"1645 East 5th Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5N 1L6",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"01,21,2017,8:54 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.61877,49.223215 ]
+    },
+    "properties": {
+    "Address":"21752 Mountainview Crescent",
+    "City":"Maple Ridge",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2X 3V1",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"2,2,2017,8:54 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.6879,49.23062 ]
+    },
+    "properties": {
+    "Address":"12619 Wooldridge Road",
+    "City":"Pitt Meadows",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3Y 1Z1",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"2,2,2017,6:54 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.86763,49.18603 ]
+    },
+    "properties": {
+    "Address":"10107 127B Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3V 5M4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"3,6,2017,11:59 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.98385,49.178697 ]
+    },
+    "properties": {
+    "Address":"21700 River Road",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6V 1M4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"8,11,2017,10:45 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.17386,49.20672 ]
+    },
+    "properties": {
+    "Address":"Glidepath Road",
+    "City":"Richmond",
+    "State/Province":"British Columbia",
+    "Postal Code":"V7B 1W7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"8,13,2017,10:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.101525,49.227564 ]
+    },
+    "properties": {
+    "Address":"2076 East 47th Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5P 1R4",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,1,2017,11:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.920549,49.257741 ]
+    },
+    "properties": {
+    "Address":"8301-8341 Eastlake Drive",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5A",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"9,1,2017,4:00PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.78704,49.17927 ]
+    },
+    "properties": {
+    "Address":"15727 97 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4N 2T4",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"9,2,2017,5:00AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.79185,49.14398 ]
+    },
+    "properties": {
+    "Address":"7649 155 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 3P3",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,5,2017,7:00PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"4493 196 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 0L7",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"9,5,2017,7:40PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07319,49.089574 ]
+    },
+    "properties": {
+    "Address":"8181 Churchill Street",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 0C2",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"9,5,2017,8:00PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07713,49.073822 ]
+    },
+    "properties": {
+    "Address":"3890 Arthur Drive",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 3N2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,5,2017,9:00PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.731549,49.168368 ]
+    },
+    "properties": {
+    "Address":"8318-8380 159 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4N 0W2",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"9,10,2017,2:00PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.630097,49.060228 ]
+    },
+    "properties": {
+    "Address":"24299-24339 32 Avenue",
+    "City":"Langley Township",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2Z",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"9,10,2017,5:00PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1581,49.08792 ]
+    },
+    "properties": {
+    "Address":"2300 Westham Island Road",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 3N2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,15,2017,4:00PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.73977,49.27809 ]
+    },
+    "properties": {
+    "Address":"1021 Maywood Avenue",
+    "City":"Port Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3B 4X7",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"9,19,2017,3:00PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.470709,49.09808 ]
+    },
+    "properties": {
+    "Address":"8513-8669 272 Street",
+    "City":"Langley",
+    "State/Province":"British Columbia",
+    "Postal Code":"V1M 3L5",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"9,25,2017,1:00PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.68526,49.244221 ]
+    },
+    "properties": {
+    "Address":"19393 Dewdney Trunk Road",
+    "City":"Pitt Meadows",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3Y 2S1",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"9,29,2017,2:30PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.79832,49.14869 ]
+    },
+    "properties": {
+    "Address":"15245 80 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 8Y4",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"10,4,2017,1:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09126,49.07022 ]
+    },
+    "properties": {
+    "Address":"Burns Drive",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 3N3",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"10,4,2017,9:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.81144,49.15494 ]
+    },
+    "properties": {
+    "Address":"8132 148 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 3G2",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"10,9,2017,8:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07302,49.00227 ]
+    },
+    "properties": {
+    "Address":"5440 Wallace Avenue",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4M 3V3",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"10,13,2017,4:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.84143,49.248757 ]
+    },
+    "properties": {
+    "Address":"1888 Austin Avenue",
+    "City":"Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3K 3R3",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"10,15,2017,2:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.67992,49.051952 ]
+    },
+    "properties": {
+    "Address":"2780 196 Street",
+    "City":"Langley",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2Z 1Y6",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"10,21,2017,3:00 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.12907,49.213683 ]
+    },
+    "properties": {
+    "Address":"7883 Shaughnessy Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V6P 3X7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"10,27,2017,11:30 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.47874,49.211747 ]
+    },
+    "properties": {
+    "Address":"26830 116 Avenue",
+    "City":"Maple Ridge",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2W 1N1",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"10,27,2017,6:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.17344,49.33555 ]
+    },
+    "properties": {
+    "Address":"2240 Jefferson Avenue",
+    "City":"West Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V7V 2A8",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"10,30,2017,12:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"18575 16 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 9W7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,02,2017,8:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.05781,49.21683 ]
+    },
+    "properties": {
+    "Address":"2410 Bonnyvale Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5S 2B8",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,06,2017,10:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.79595,49.15236 ]
+    },
+    "properties": {
+    "Address":"15555 82 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 2K8",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"11,07,2017, 8:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.787139,49.445 ]
+    },
+    "properties": {
+    "Address":"Barnston Island",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4N 4R1",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,9,2017,9:00 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.85664,49.04367 ]
+    },
+    "properties": {
+    "Address":"13152 22A Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4A 9A8",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,11,2017,10:30 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09126,49.07022 ]
+    },
+    "properties": {
+    "Address":"5709 112 Street",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4K 3N3",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"11,13,2017, 8:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.01703,49.287172 ]
+    },
+    "properties": {
+    "Address":"3970 Eton Street",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5C 1J5",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,31,2017,5:00 PM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.769687,49.130084 ]
+    },
+    "properties": {
+    "Address":"730 176 Street",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3S 9S6",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"1,1,2018,9:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.86469,49.227751 ]
+    },
+    "properties": {
+    "Address":"1046 United Boulevard",
+    "City":"Coquitlam",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3K 6V4",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,15,2017,11:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.470709,49.09808 ]
+    },
+    "properties": {
+    "Address":"6430-7998 272 Street",
+    "City":"Langley Township",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4W",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,17,2017,9:00 AM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0575,49.219734 ]
+    },
+    "properties": {
+    "Address":"7028 Berkeley Street",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5S 2J8",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"11,18,2017,9:45 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.689815,49.231401 ]
+    },
+    "properties": {
+    "Address":"19108 Lougheed Highway",
+    "City":"Pitt Meadows",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3Y 2H6",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,20,2017, 8:00 AM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.87099,49.05333 ]
+    },
+    "properties": {
+    "Address":"12662 28 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4A 2P3",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,22,2017,6:00 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.751161,49.177044 ]
+    },
+    "properties": {
+    "Address":"18099 80 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4N 6G3",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"11,27,2017,2:00 AM",
+    "Zone value":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36204,49.061168 ]
+    },
+    "properties": {
+    "Address":"31124 Deertrail Drive",
+    "City":"Abbotsford",
+    "State/Province":"British Columbia",
+    "Postal Code":"V2T 5J5",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"11,28,2017, 6:00 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.00652,49.281302 ]
+    },
+    "properties": {
+    "Address":"4365 Hastings Street",
+    "City":"Burnaby",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5C 0B7",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"11,30,2017,3:00 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.87073,49.1866 ]
+    },
+    "properties": {
+    "Address":"10120 Mary Drive",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3V 3B7",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"3,19,2017,4:32 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.901059,49.178134 ]
+    },
+    "properties": {
+    "Address":"12507-12527 96A Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3V 2A8",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"4,09,2017,2:54 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.751114,49.177016 ]
+    },
+    "properties": {
+    "Address":"18927 84 Avenue",
+    "City":"Surrey",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4N 6B3",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"1,1,2017,12:54 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.11148,49.224887 ]
+    },
+    "properties": {
+    "Address":"200 West 49th Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5Y 2Z5",
+    "Country":"Canada",
+    "Emergency":"fire",
+    "TIME":"6,30,2017,1:14 PM",
+    "Zone value":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.113007,49.255814 ]
+    },
+    "properties": {
+    "Address":"128 West 17th Avenue",
+    "City":"Vancouver",
+    "State/Province":"British Columbia",
+    "Postal Code":"V5Y 1Z6",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"6,22,2017,9:54 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.89745,49.23029 ]
+    },
+    "properties": {
+    "Address":"309 Cunningham Street",
+    "City":"New Westminster",
+    "State/Province":"British Columbia",
+    "Postal Code":"V3L",
+    "Country":"Canada",
+    "Emergency":"ambulance",
+    "TIME":"7,7,2017,2:04 PM",
+    "Zone value":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.023924,49.115438 ]
+    },
+    "properties": {
+    "Address":"72 Street",
+    "City":"Delta",
+    "State/Province":"British Columbia",
+    "Postal Code":"V4G 1M2",
+    "Country":"Canada",
+    "Emergency":"theft",
+    "TIME":"12,25,2017,11:34 AM",
+    "Zone value":3
+    }
+  }
+]
+}

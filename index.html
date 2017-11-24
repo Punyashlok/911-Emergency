@@ -1,0 +1,242 @@
+  <html>
+  <head> 
+    <style type="text/css">
+    #wrapper {
+      width: 100%;
+      overflow: hidden; /* will contain if #first is longer than #second */
+    }
+    #map {
+      float: left;
+      width: 70%;
+      height: 90%;
+    }
+    .filters 
+    {
+      display: block;
+      padding-left: 80px;
+      padding-top: 80px;
+      overflow: hidden;
+    } 
+    </style>
+
+  </head>
+  <body>
+
+    <h1>911 Map</h1>
+    <div id='wrapper'>
+      <div id="map"></div>
+      <div class='filters'>
+        <div id='filter1'>
+          <b>EMERGENCY</b>
+          <form action="/index.html" method="get" name= "fEmergency">
+            <input type="checkbox" name="emergency" value="theft"> THEFT<br>
+            <input type="checkbox" name="emergency" value="ambulance">MEDICAL ASSISTANCE<br>
+            <input type="checkbox" name="emergency" value="fire">FIRE <br>
+            <input type="button" value="Search" onclick="searchAll()">
+          </form>
+        </div>
+        <div id='filter2'>
+          <b> CITIES </b>
+          <form action="/index.html" method="get" name="fCities">
+            <input type="checkbox" name="City" value="Abbotsford"> Abbotsford<br>
+            <input type="checkbox" name="City" value="Burnaby">Burnaby<br>
+            <input type="checkbox" name="City" value="Coquitlam">Coquitlam <br>
+            <input type="checkbox" name="City" value="Delta">Delta<br>
+            <input type="checkbox" name="City" value="Langley">Langley <br>
+            <input type="checkbox" name="City" value="Maple Ridge">Maple Ridge <br>
+            <input type="checkbox" name="City" value="New Westminister">New Westminister<br>
+            <input type="checkbox" name="City" value="North Vancouver">North Vancouver <br>
+            <input type="checkbox" name="City" value="Pitt Meadows">Pitt Meadows <br>
+            <input type="checkbox" name="City" value="Port Coquitlam"> Port Coquitlam <br>
+            <input type="checkbox" name="City" value="Port Moody">Port Moody<br>
+            <input type="checkbox" name="City" value="Richmond">Richmond<br>
+            <input type="checkbox" name="City" value="Surrey">Surrey <br>
+            <input type="checkbox" name="City" value="Vancouver">Vancouver <br>
+            <input type="checkbox" name="City" value="West Vancouver">West Vancouver <br>
+            <input type="checkbox" name="City" value="White Rock">White Rock <br>
+            <input type="button" value="Search" onclick = "searchAll()">
+          </form>
+        </div>
+        <div id='filter 3'>
+          <b> DATE </b>
+          <form name="fDatepicker" action="/index.html" method="get">
+           <input type="date" name="inDate">
+           -----
+           <input type="date" name="outDate">
+           <input type ="button" onclick = "find()" value = "Find">
+         </form>
+       </div>
+        <div>
+            <a href="/HeatMap.html">See HeatMap</a>
+        </div> 
+     </div>
+   </div>
+     
+   <!-- <div class="emergency" style ="align=right;width=20%;height=20%"></div>  -->
+
+   <script>
+   var map;
+   var data;
+   function myMap() {
+    map = new google.maps.Map(document.getElementById('map'),{zoom: 10, center: new google.maps.LatLng(49.1922417,-122.8687606)});
+    data = new google.maps.Data();
+    data.loadGeoJson('geogson.json');
+    data.setStyle(function(feature) {
+    var emergency = feature.getProperty('Emergency');
+    var color = getColor(emergency);
+    return {
+      icon: getIcon(color,true)
+    };});
+
+    data.setMap(map);
+  }
+
+  function getIcon(color,visible) {
+    return {
+      path: google.maps.SymbolPath.CIRCLE,
+      fillColor: color,
+      fillOpacity: (visible)? .7:0.1 ,
+      scale: 7,
+      strokeColor: 'white',
+      strokeWeight: .5};
+    }
+
+    function clearAll(){
+      //data.setMap(null);
+    }
+
+    function getColor(emergency){
+      var color;
+      if (emergency == 'theft'|emergency =='Theft')
+        color="black";
+      else if (emergency == 'ambulance'|emergency == 'Ambulance') 
+       color = "blue";
+      else 
+        color = "red";
+      return color;
+    }
+
+    function searchAll(){
+      var cityinputs = document.forms["fCities"].elements['City'];
+      var anyCityEnabled;
+      for(i =0 ; i< cityinputs.length; i++){
+        if (cityinputs[i].checked ){
+          anyCityEnabled = true;
+          break;
+        }
+      }
+
+      var emergencyTypes = document.forms["fEmergency"].elements['emergency'];
+      var anyEmergencyEnabled;
+      for(i =0 ; i< emergencyTypes.length; i++){
+        if (emergencyTypes[i].checked ){
+          anyEmergencyEnabled = true;
+          break;
+        }
+      }
+
+      data.setStyle(function(feature) {
+
+        var city = feature.getProperty('City');
+        var emergency = feature.getProperty('Emergency');
+
+        var emergencyTypes = document.forms["fEmergency"].elements['emergency'];
+        var cityinputs = document.forms["fCities"].elements['City'];
+        
+        var emergencyEnabled = false;
+        var cityEnabled = false;
+
+        var showMarker = false;
+
+        for(i =0 ; i< emergencyTypes.length; i++){
+          if (emergencyTypes[i].value.toLowerCase() == emergency.toLowerCase() && emergencyTypes[i].checked ){
+            emergencyEnabled = true;
+            break;
+          }
+        }
+
+        for(i =0 ; i< cityinputs.length; i++){
+          if (cityinputs[i].value.toLowerCase() == city.toLowerCase() && cityinputs[i].checked ){
+            cityEnabled = true;
+            break;
+          }
+        }
+
+        if(emergencyEnabled&&cityEnabled){
+          showMarker = true;
+        }
+
+        if(emergencyEnabled&&!cityEnabled&&!anyCityEnabled){
+          showMarker = true;
+        }
+
+        if(!emergencyEnabled&&cityEnabled&&!anyEmergencyEnabled){
+          showMarker = true;
+        }
+
+        if(!emergencyEnabled&&!cityEnabled&&!anyEmergencyEnabled&&!anyCityEnabled){
+          showMarker = true;
+        }
+
+        return {
+                  icon: getIcon(getColor(emergency),showMarker),
+              };
+      });
+    }
+
+    function find()
+    {
+
+      var entryDate= document.forms["fDatepicker"].elements["inDate"].valueAsDate;
+      var mEntryDateMillis= moment(entryDate).valueOf();
+     
+      var exitDate = document.forms["fDatepicker"].elements["outDate"].valueAsDate;
+      var mExitDateMillis = moment(exitDate).valueOf();
+
+      data.setStyle(function(feature){
+        var splits,month,day,year;
+        var formatedDate; var dateRange =false;
+        var emergency = feature.getProperty('Emergency');
+        var date_json = feature.getProperty('TIME');
+        // var inDateRange = document.forms["fDatepicker"].elements["inDate"];
+        //console.log('Check Date :' + date_json);
+        splits = date_json.split(',');
+        month = splits[0];
+        day = splits[1];
+        year = splits [2];
+        //console.log("Month "+month+" day "+day+ " year "+year);
+        
+        formatedDate = new Date();
+        formatedDate.setDate(day);
+        formatedDate.setMonth(month-1);
+        formatedDate.setFullYear(year);
+        var fd=formatedDate.valueOf();
+        //console.log(fd);
+        if(fd >= mEntryDateMillis && fd <= mExitDateMillis)
+        {
+            dateRange = true;
+        }
+
+        return {
+                  icon: getIcon(getColor(emergency),dateRange),
+               };
+      });
+      
+    }
+    //  data.setStyle(function(feature){
+    // var hmd = feature.getProperty('City');
+    // var color = getColor(emergency);
+    // return {
+    //   icon: getIcon(color,true)
+    // };});
+    //   heatmapData = hmd;
+    //  var heatmap = new google.maps.visualization.HeatmapLayer({
+    //    data: heatmapData
+    //  });
+    // heatmap.setMap(map);
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHSpuoIPprRAlf841JS2rTRS4y-3b6iHg&libraries=visualization&callback=myMap"></script>
+</body>
+</html>
